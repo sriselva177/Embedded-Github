@@ -24,6 +24,6 @@ else
 }
 
 regVal &= ~BITMASK;
-printf("The register value after reset bit BITMASK is %.2x\n", regVal);
+printf("The register value after reset bit BITMASK is : %.2x\n", regVal);
 
 }
