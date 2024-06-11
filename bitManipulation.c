@@ -11,7 +11,7 @@ typedef unsigned int UInt32;
 
 void main()  // no return from function
 {
-UInt8 regVal = 0xDA;
+UInt8 regVal = 0xDA; // use the right data type
 
 if (BITMASK & regVal)
 {
@@ -23,7 +23,7 @@ else
     printf("The bit is in RESET state\n");
 }
 
-regVal &= ~BITMASK;
+regVal &= ~BITMASK; // Resetting the bit
 printf("The register value after reset bit BITMASK is : %.2x\n", regVal);
 
 }
